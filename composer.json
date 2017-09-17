@@ -1,0 +1,10 @@
+{
+    "name": "nafakturu/api",
+    "type": "library",
+    "description": "Nafakturu API client",
+    "homepage": "https://github.com/nafakturu/api",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

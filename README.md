@@ -31,6 +31,7 @@ $Api = new ApiClient($key, $market);
 [
   'status'  => 'success', // Status [success,error]
   'item_id' => 0,         // ID objektu ktorý ste vytvorili
+  'data'    => [],        // Dáta vrátene metódou get
   'errors'  => [],        // Error hlášky
 ]
 ```
@@ -330,6 +331,12 @@ $response = $Api->saveSequence([
 
 ```
 $response = $Api->deleteSequence($id);
+```
+
+* Zoznam číselníkov
+
+```
+$response = $Api->getSequences();
 ```
 
 * Vytvorenie/editácia skladu
